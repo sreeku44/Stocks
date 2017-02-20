@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StockDetailViewController.h"
+#import "StockNameTableViewController.h"
 
 @interface ViewController : UIViewController
 
+@property(nonatomic, strong) StockDetailViewController *stockDetailVC;
+@property (nonatomic, strong) StockNameTableViewController *stockNameTVC;
 
 @end
 

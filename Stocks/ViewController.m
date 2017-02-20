@@ -16,9 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *childViewControllers = self.childViewControllers;
+    self.stockNameTVC = (StockNameTableViewController*) childViewControllers[1];
+    self.stockDetailVC = (StockDetailViewController *) childViewControllers[0];
+    self.stockNameTVC.delegate = self.stockDetailVC;
+    
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

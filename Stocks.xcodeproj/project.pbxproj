@@ -13,6 +13,8 @@
 		DDC547001E5B5F3B00D4361D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC546FE1E5B5F3B00D4361D /* Main.storyboard */; };
 		DDC547021E5B5F3B00D4361D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC547011E5B5F3B00D4361D /* Assets.xcassets */; };
 		DDC547051E5B5F3B00D4361D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC547031E5B5F3B00D4361D /* LaunchScreen.storyboard */; };
+		DDC547111E5B626D00D4361D /* StockDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC547101E5B626D00D4361D /* StockDetailViewController.m */; };
+		DDC547141E5B66E700D4361D /* StockNameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC547131E5B66E700D4361D /* StockNameTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		DDC547011E5B5F3B00D4361D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC547041E5B5F3B00D4361D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDC547061E5B5F3B00D4361D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC5470F1E5B626D00D4361D /* StockDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockDetailViewController.h; sourceTree = "<group>"; };
+		DDC547101E5B626D00D4361D /* StockDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockDetailViewController.m; sourceTree = "<group>"; };
+		DDC547121E5B66E700D4361D /* StockNameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockNameTableViewController.h; sourceTree = "<group>"; };
+		DDC547131E5B66E700D4361D /* StockNameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockNameTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				DDC547031E5B5F3B00D4361D /* LaunchScreen.storyboard */,
 				DDC547061E5B5F3B00D4361D /* Info.plist */,
 				DDC546F51E5B5F3B00D4361D /* Supporting Files */,
+				DDC5470F1E5B626D00D4361D /* StockDetailViewController.h */,
+				DDC547101E5B626D00D4361D /* StockDetailViewController.m */,
+				DDC547121E5B66E700D4361D /* StockNameTableViewController.h */,
+				DDC547131E5B66E700D4361D /* StockNameTableViewController.m */,
 			);
 			path = Stocks;
 			sourceTree = "<group>";
@@ -150,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC547111E5B626D00D4361D /* StockDetailViewController.m in Sources */,
 				DDC546FD1E5B5F3B00D4361D /* ViewController.m in Sources */,
+				DDC547141E5B66E700D4361D /* StockNameTableViewController.m in Sources */,
 				DDC546FA1E5B5F3B00D4361D /* AppDelegate.m in Sources */,
 				DDC546F71E5B5F3B00D4361D /* main.m in Sources */,
 			);
@@ -309,6 +321,7 @@
 				DDC5470B1E5B5F3B00D4361D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
